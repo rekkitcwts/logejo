@@ -1,0 +1,42 @@
+2022-01-18 17:05:21 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-01-18 17:05:22 error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency. Requested by connection "default" in /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php on line 198
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+  'name' => 'default',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:142
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:89
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:110
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:204
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:220
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/cakephp/webroot/index.php:40
+
+
+
+2022-01-18 17:07:16 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-01-18 17:07:16 error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlite cannot be used due to a missing PHP extension or unmet dependency. Requested by connection "test" in /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php on line 198
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:142
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:89
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:110
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:204
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:220
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/cakephp/webroot/index.php:40
+
+
+
