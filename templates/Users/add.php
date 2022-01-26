@@ -20,7 +20,11 @@
                     echo $this->Form->control('username');
                     echo $this->Form->control('password');
                     echo $this->Form->control('role');
-                    echo $this->Form->control('is_active');
+		    // TBD for role line:
+		    // if user is admin, show a drop-down
+		    // if no user logged in, treat as registration form,
+		    // and set ext_user as a default role
+                    //echo $this->Form->control('is_active');
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>

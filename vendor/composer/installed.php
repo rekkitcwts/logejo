@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '7013de0a41f373fd89d6009566c2af7acecf08cf',
         'name' => 'cakephp/app',
         'dev' => true,
     ),
@@ -20,12 +20,12 @@
             'dev_requirement' => true,
         ),
         'cakephp/app' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '7013de0a41f373fd89d6009566c2af7acecf08cf',
             'dev_requirement' => false,
         ),
         'cakephp/authentication' => array(
@@ -35,6 +35,15 @@
             'install_path' => __DIR__ . '/../cakephp/authentication',
             'aliases' => array(),
             'reference' => '71cfa8ab1b3e34699400528714a3575c5778e27d',
+            'dev_requirement' => false,
+        ),
+        'cakephp/authorization' => array(
+            'pretty_version' => '2.2.0',
+            'version' => '2.2.0.0',
+            'type' => 'cakephp-plugin',
+            'install_path' => __DIR__ . '/../cakephp/authorization',
+            'aliases' => array(),
+            'reference' => 'bb9aca461a4fe7c789ef841ca064f0577450f658',
             'dev_requirement' => false,
         ),
         'cakephp/bake' => array(
