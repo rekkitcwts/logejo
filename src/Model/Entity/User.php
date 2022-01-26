@@ -3,7 +3,8 @@ declare(strict_types=1);
 
 namespace App\Model\Entity;
 
-use Authentication\PasswordHasher\DefaultPasswordHasher;
+use Authentication\PasswordHasher\DefaultPasswordHasher; // hashes passwords
+use Authentication\IdentityInterface; // allows us to get user roles
 use Cake\ORM\Entity;
 
 /**
@@ -17,7 +18,7 @@ use Cake\ORM\Entity;
  * @property \Cake\I18n\FrozenTime|null $modified
  * @property int $is_active
  */
-class User extends Entity
+class User extends Entity implements IdentityInterface
 {
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
@@ -50,10 +51,34 @@ class User extends Entity
 	 * Encrypts the password, everytime a user is added or edited
 	 *
 	 */
-	protected function _setPassword(string $password) : ?string
+    protected function _setPassword(string $password) : ?string
     {
         if (strlen($password) > 0) {
             return (new DefaultPasswordHasher())->hash($password);
         }
+    }
+
+    /**
+     * Authentication\IdentityInterface method
+     */
+    public function getIdentifier()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Authentication\IdentityInterface method
+     */
+    public function getOriginalData()
+    {
+        return $this;
+    }
+
+    /**
+     * Other methods
+     */
+    public function getUserRole()
+    {
+        return $this->role;
     }
 }

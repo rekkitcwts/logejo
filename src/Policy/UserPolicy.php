@@ -20,6 +20,10 @@ class UserPolicy
      */
     public function canAdd(IdentityInterface $user, User $resource)
     {
+	// Unregistered users can add - treat this as registration
+	// Internal users can add - treat this as manual account creation
+	// External users cannot create other users
+	return true;
     }
 
     /**
@@ -53,5 +57,25 @@ class UserPolicy
      */
     public function canView(IdentityInterface $user, User $resource)
     {
+    }
+
+    // check if $user is the account holder
+    protected function isAccountHolder(IdentityInterface $user, User $resource)
+    {
+        return $resource->id === $user->getIdentifier();
+    }
+
+    // check if $user is an internal user
+    protected function isInternalUser(IdentityInterface $user)
+    {
+	$role = $user->getUserRole();
+        return $role == "int_admin";
+    }
+
+    // check if $user is an external user
+    protected function isExternalUser(IdentityInterface $user)
+    {
+	$role = $user->getUserRole();
+        return $role == "ext_user";
     }
 }

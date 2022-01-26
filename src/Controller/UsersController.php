@@ -68,8 +68,14 @@ class UsersController extends AppController
      */
     public function index()
     {
+	// View and index actions are public methods
+	// and don't require authorization checks.
+	// TBD: only selected View actions (e.g. flats) should be public
+	$this->Authorization->skipAuthorization();
         $users = $this->paginate($this->Users);
-
+	// TEST VARIABLE - shows the role and username of the logged in user
+	$currentUser = $this;
+	$this->set('currentUser');
         $this->set(compact('users'));
     }
 
@@ -82,6 +88,10 @@ class UsersController extends AppController
      */
     public function view($id = null)
     {
+	// View and index actions are public methods
+	// and don't require authorization checks.
+	// TBD: only selected View actions (e.g. flats) should be public
+	$this->Authorization->skipAuthorization();
         $user = $this->Users->get($id, [
             'contain' => [],
         ]);
