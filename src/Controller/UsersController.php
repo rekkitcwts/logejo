@@ -73,8 +73,21 @@ class UsersController extends AppController
 	// TBD: only selected View actions (e.g. flats) should be public
 	$this->Authorization->skipAuthorization();
         $users = $this->paginate($this->Users);
-	// TEST VARIABLE - shows the role and username of the logged in user
-	$this->set('currentUser', $this->request->getAttribute('identity')->role);
+
+	// TEST - switches layouts depending on user's role.
+	// Tests for guests
+	if (is_null($this->request->getAttribute('identity')->role))
+	{
+	    $this->viewBuilder()->setLayout('default');	
+	}
+	// Tests for internal users
+	if ($this->request->getAttribute('identity')->role == 'int_admin')
+	{
+	    $this->viewBuilder()->setLayout('aonghas');	
+	    // TEST VARIABLE - shows the role and username of the logged in user
+	    $this->set('currentUser', $this->request->getAttribute('identity')->role);
+	}
+	
         $this->set(compact('users'));
     }
 
