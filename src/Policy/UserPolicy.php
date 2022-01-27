@@ -23,7 +23,7 @@ class UserPolicy
 	// Unregistered users can add - treat this as registration
 	// Internal users can add - treat this as manual account creation
 	// External users cannot create other users
-	return true;
+	return $this->isExternalUser($user) == false;
     }
 
     /**
@@ -68,14 +68,14 @@ class UserPolicy
     // check if $user is an internal user
     protected function isInternalUser(IdentityInterface $user)
     {
-	$role = $user->getUserRole();
+	$role = $user->role;
         return $role == "int_admin";
     }
 
     // check if $user is an external user
     protected function isExternalUser(IdentityInterface $user)
     {
-	$role = $user->getUserRole();
+	$role = $user->role;
         return $role == "ext_user";
     }
 }

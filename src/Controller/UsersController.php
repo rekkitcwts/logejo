@@ -74,8 +74,7 @@ class UsersController extends AppController
 	$this->Authorization->skipAuthorization();
         $users = $this->paginate($this->Users);
 	// TEST VARIABLE - shows the role and username of the logged in user
-	$currentUser = $this;
-	$this->set('currentUser');
+	$this->set('currentUser', $this->request->getAttribute('identity')->role);
         $this->set(compact('users'));
     }
 
@@ -108,8 +107,11 @@ class UsersController extends AppController
     {
 	// UsersController - In the add, login, and logout methods
 	// This will skip authorisation on specific pages
-	$this->Authorization->skipAuthorization();
+	// $this->Authorization->skipAuthorization();
+
         $user = $this->Users->newEmptyEntity();
+    	$this->Authorization->authorize($user);
+
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
             if ($this->Users->save($user)) {

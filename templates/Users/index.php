@@ -7,7 +7,7 @@
 <div class="users index content">
     <?= $this->Html->link(__('New User'), ['action' => 'add'], ['class' => 'button float-right']) ?>
     <?php
-	var_dump($currentUser);
+	echo $currentUser;
     ?>
 
     <h3><?= __('Users') ?></h3>
