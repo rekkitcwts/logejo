@@ -53,4 +53,14 @@ framework by default. You can, however, replace it with any other library or
 custom styles.
 
 # logejo
-Flat/Apartment Finder
+A Flat/Apartment finder.
+
+The system is divided into three parts:
+- the internal system (codenamed "Aonghas")
+> This is intended for admin use, also includes managing of site users and listed flats/apartments.
+
+- the external system (codenamed "Somhairle")
+> The part of the site visible to end users
+
+- the mobile app (codenamed "Ealasaid")
+> TBD.

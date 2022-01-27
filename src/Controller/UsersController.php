@@ -86,6 +86,8 @@ class UsersController extends AppController
 	    $this->viewBuilder()->setLayout('aonghas');	
 	    // TEST VARIABLE - shows the role and username of the logged in user
 	    $this->set('currentUser', $this->request->getAttribute('identity')->role);
+	    // Avoid accidental self-deletion: pass user's ID for view use.
+	    $this->set('currentUserID', $this->request->getAttribute('identity')->id);
 	}
 	
         $this->set(compact('users'));
