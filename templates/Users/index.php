@@ -88,6 +88,4 @@
 </script>
 <?php
 	$this->end();
-
-	//$this->render('aonghas_sidebar');
 ?>
