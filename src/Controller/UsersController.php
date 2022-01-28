@@ -68,24 +68,24 @@ class UsersController extends AppController
      */
     public function index()
     {
-	// View and index actions are public methods
-	// and don't require authorization checks.
-	// TBD: only selected View actions (e.g. flats) should be public
-	$this->Authorization->skipAuthorization();
-        $users = $this->paginate($this->Users);
+	// List of ALL users (both int and ext) are only intended for internal use
+	// TBD-somhairle: only selected View actions (e.g. flats) should be public
+	// TBD: create a separate "view profile" page
+	// TBD: Guests must redirect to the Aonghas login.
+	// TBD: redirect external users to the error page
 
-	// TEST - switches layouts depending on user's role.
-	// Tests for guests
-	if (is_null($this->request->getAttribute('identity')->role))
-	{
-	    $this->viewBuilder()->setLayout('default');	
-	}
+	$user = $this->Users->newEmptyEntity();
+	$this->Authorization->authorize($user, 'accessInternal');
+
+        $users = $this->paginate($this->Users);
+	// Loads the Aonghas layout for internal users.
 	// Tests for internal users
 	if ($this->request->getAttribute('identity')->role == 'int_admin')
 	{
 	    $this->viewBuilder()->setLayout('aonghas');	
-	    // TEST VARIABLE - shows the role and username of the logged in user
+	    // Shows the role and username of the logged in user
 	    $this->set('currentUser', $this->request->getAttribute('identity')->username);
+	    $this->set('currentUserRole', $this->request->getAttribute('identity')->role);
 	    // Avoid accidental self-deletion: pass user's ID for view use.
 	    $this->set('currentUserID', $this->request->getAttribute('identity')->id);
 	}

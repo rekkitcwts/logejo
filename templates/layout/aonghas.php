@@ -182,7 +182,7 @@ $cakeDescription = 'Logejo Internal';
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
       <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Logejo Control Panel</span>
+      <span class="brand-text font-weight-light"><?= __('Logejo Control Panel') ?></span>
     </a>
 
     <!-- Sidebar -->
@@ -198,7 +198,9 @@ $cakeDescription = 'Logejo Internal';
 	{
 	    echo $currentUser;
 	}
-  ?></a>
+  ?>
+	<span class="right badge badge-danger"><?php echo $currentUserRole; ?></span>
+  </a>
         </div>
       </div>
 

@@ -59,6 +59,25 @@ class UserPolicy
     {
     }
 
+    /**
+     * Check if $user is authorised to access Aonghas.
+     *
+     * @param \Authorization\IdentityInterface $user The user.
+     * @param \App\Model\Entity\User $resource
+     * @return bool
+     */
+    public function canAccessInternal(IdentityInterface $user)
+    {
+	if (is_null($user))
+	{
+	    return false;
+	}
+	else
+	{
+	    return $this->isInternalUser($user);
+	}
+    }
+
     // check if $user is the account holder
     protected function isAccountHolder(IdentityInterface $user, User $resource)
     {
