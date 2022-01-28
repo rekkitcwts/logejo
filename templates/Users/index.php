@@ -4,18 +4,32 @@
  * @var \App\Model\Entity\User[]|\Cake\Collection\CollectionInterface $users
  */
 ?>
-<div class="users index content">
-    <?= $this->Html->link(__('New User'), ['action' => 'add'], ['class' => 'button float-right']) ?>
-    <?php
-	if (isset($currentUser))
-	{
-	    echo $currentUser;
-	}
-    ?>
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0"><?= __('Users') ?></h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#"><?= __('Home') ?></a></li>
+              <li class="breadcrumb-item active"><?= __('Users') ?></li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
 
-    <h3><?= __('Users') ?></h3>
-    <div class="table-responsive">
-        <table>
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+	<div class="users index content">
+    		<?= $this->Html->link(__('New User'), ['action' => 'add'], ['class' => 'button float-left btn btn-success']) ?>
+
+    	<div class="table-responsive">
+       	<table id="users" class="table table-bordered table-striped">
             <thead>
                 <tr>
                     <th><?= $this->Paginator->sort('id') ?></th>
@@ -56,4 +70,22 @@
         </ul>
         <p><?= $this->Paginator->counter(__('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')) ?></p>
     </div>
-</div>
+	</div>
+      </div><!--/. container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+
+<?php
+	$this->start('page_scripts');
+?>
+<script>
+  $(function () {
+    $("#users").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false
+    });
+  });
+</script>
+<?php
+	$this->end();
+?>
