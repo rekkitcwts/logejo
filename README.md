@@ -57,7 +57,7 @@ A Flat/Apartment finder.
 
 The system is divided into three parts:
 - the internal system (codenamed "Aonghas")
-> This is intended for admin use, also includes managing of site users and listed flats/apartments.
+> This is intended for admin use, also includes managing of site users and listed flats/apartments. Uses the [AdminLTE theme](https://github.com/ColorlibHQ/AdminLTE).
 
 - the external system (codenamed "Somhairle")
 > The part of the site visible to end users
