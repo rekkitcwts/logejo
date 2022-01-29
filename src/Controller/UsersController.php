@@ -26,7 +26,7 @@ class UsersController extends AppController
 	// UsersController - In the add, login, and logout methods
 	// This will skip authorisation on specific pages
 	$this->Authorization->skipAuthorization();
-
+	$this->viewBuilder()->setLayout('login_aonghas');	
     	$this->request->allowMethod(['get', 'post']);
     	$result = $this->Authentication->getResult();
     	// regardless of POST or GET, redirect if user is logged in
