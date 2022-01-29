@@ -18,7 +18,7 @@ class UsersController extends AppController
     	parent::beforeFilter($event);
     	// Configure the login action to not require authentication, preventing
     	// the infinite redirect loop issue
-    	$this->Authentication->addUnauthenticatedActions(['login', 'add']);
+    	$this->Authentication->addUnauthenticatedActions(['login']);
 	}
 
 	public function login()
@@ -120,13 +120,10 @@ class UsersController extends AppController
      */
     public function add()
     {
-	// UsersController - In the add, login, and logout methods
-	// This will skip authorisation on specific pages
-	// $this->Authorization->skipAuthorization();
-
+	// DO NOT SKIP AUTHORISATION - create a separate registration page instead
         $user = $this->Users->newEmptyEntity();
-    	$this->Authorization->authorize($user);
-
+    	$this->Authorization->authorize($user, 'accessInternal');
+	$this->viewBuilder()->setLayout('aonghas');
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
             if ($this->Users->save($user)) {

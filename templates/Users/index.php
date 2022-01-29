@@ -49,11 +49,22 @@
                     <td><?= h($user->role) ?></td>
                   <!--  <td><?= h($user->created) ?></td>
                     <td><?= h($user->modified) ?></td> -->
-                    <td><?= $this->Number->format($user->is_active) ?></td>
+                    <td>
+			<?php
+				if ($this->Number->format($user->is_active) == 1)
+				{
+				echo '<span class="right badge badge-success">ACTIVE</span>';
+				}
+				else
+				{
+				echo '<span class="right badge badge-danger">INACTIVE</span>';
+				}
+			?>
+		    </td>
                     <td class="actions">
-                        <?= $this->Html->link(__('View'), ['action' => 'view', $user->id]) ?>
-                        <?= $this->Html->link(__('Edit'), ['action' => 'edit', $user->id]) ?> 
-			<?=	($currentUserID != $user->id) ? $this->Form->postLink(__('Delete'), ['action' => 'delete', $user->id], ['confirm' => __('Are you sure you want to delete # {0}?', $user->id)]) : ""; ?>
+                        <?= $this->Html->link(__('View'), ['action' => 'view', $user->id], ['class' => 'button float-left btn btn-default']) ?>
+                        <?= $this->Html->link(__('Edit'), ['action' => 'edit', $user->id], ['class' => 'button float-left btn btn-warning']) ?> 
+			<?=	($currentUserID != $user->id) ? $this->Form->postLink(__('Delete'), ['action' => 'delete', $user->id], ['class' => 'button float-left btn btn-danger', 'confirm' => __('Are you sure you want to delete # {0}?', $user->id)]) : ""; ?>
                     </td>
                 </tr>
                 <?php endforeach; ?>
