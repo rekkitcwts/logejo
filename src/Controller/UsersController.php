@@ -124,6 +124,9 @@ class UsersController extends AppController
         $user = $this->Users->newEmptyEntity();
     	$this->Authorization->authorize($user, 'accessInternal');
 	$this->viewBuilder()->setLayout('aonghas');
+	// Shows the role and username of the logged in user
+	$this->set('currentUser', $this->request->getAttribute('identity')->username);
+	$this->set('currentUserRole', $this->request->getAttribute('identity')->role);
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
             if ($this->Users->save($user)) {
