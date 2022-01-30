@@ -4,31 +4,70 @@
  * @var \App\Model\Entity\User $user
  */
 ?>
-<div class="row">
-    <aside class="column">
-        <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Html->link(__('List Users'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
-        </div>
-    </aside>
-    <div class="column-responsive column-80">
-        <div class="users form content">
-            <?= $this->Form->create($user) ?>
-            <fieldset>
-                <legend><?= __('Add User') ?></legend>
-                <?php
-                    echo $this->Form->control('username');
-                    echo $this->Form->control('password');
-                    echo $this->Form->control('role');
-		    // TBD for role line:
-		    // if user is admin, show a drop-down
-		    // if no user logged in, treat as registration form,
-		    // and set ext_user as a default role
-                    //echo $this->Form->control('is_active');
-                ?>
-            </fieldset>
-            <?= $this->Form->button(__('Submit')) ?>
-            <?= $this->Form->end() ?>
-        </div>
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0"><?= __('Add Users') ?></h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="<?= $this->request->getAttribute('webroot') ?>dashboard"><?= __('Home') ?></a></li>
+              <li class="breadcrumb-item"><?= $this->Html->link(__('Users'), ['action' => 'index']) ?></li>
+	      <li class="breadcrumb-item active"><?= __('Add User') ?></li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
     </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-md-12">
+		<!-- general form elements -->
+            <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">Add a new user below.</h3>
+		<?= $this->Flash->render() ?>
+              </div>
+              <!-- /.card-header -->
+              <!-- form start -->
+              <?= $this->Form->create($user) ?>
+                <div class="card-body">
+                  <div class="form-group">
+                    <label for="addUserUsername">Username</label>
+                    <?= $this->Form->text('username', ['label' => false,'required' => true, 'class' => 'form-control', 'id' => 'addUserUsername']) ?>
+                  </div>
+                  <div class="form-group">
+                    <label for="addUserPassword">Password</label>
+                    <?= $this->Form->password('password', ['label' => false,'required' => true, 'class' => 'form-control', 'id' => 'addUserPassword']) ?>
+                  </div>
+                  <div class="form-group">
+                    <label for="addUserRole">User Role</label>
+                  <select name="role" class="custom-select form-control" id="addUserRole">
+                    <option value="int_admin">Internal - Admin</option>
+                    <option value="ext_user">External - Site User</option>
+                  </select>
+                  </div>
+                </div>
+                <!-- /.card-body -->
+
+                <div class="card-footer">
+		  <?= $this->Form->submit(__('Submit'), ['class' => 'btn btn-primary']); ?>
 </div>
+                </div>
+              <?= $this->Form->end() ?>
+            </div>
+            <!-- /.card -->
+
+            <!-- general form elements -->
+	  </div> <!--/. col-md-12 -->
+	</div><!--/. row -->
+      </div><!--/. container-fluid -->
+    </section>
+    <!-- /.content -->

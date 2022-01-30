@@ -32,7 +32,7 @@ class UsersController extends AppController
     	// regardless of POST or GET, redirect if user is logged in
     	if ($result->isValid()) {
         	// TEMPORARY: redirect to /users after login success
-			// TBD: redirect depending if user is internal or external
+		// TBD: redirect depending if user is internal or external
         	$redirect = $this->request->getQuery('redirect', [
             	'controller' => 'Users',
             	'action' => 'index',
@@ -134,7 +134,7 @@ class UsersController extends AppController
 
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('The user could not be saved. Please, try again.'));
+            $this->Flash->error(__('The user could not be saved. Please, try again. ' . var_dump($this->request->getData())));
         }
         $this->set(compact('user'));
     }
