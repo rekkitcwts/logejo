@@ -48,7 +48,7 @@
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
-                <span class="right badge badge-danger">BETA</span>
+                <span class="right badge badge-danger">NOT READY</span>
               </p>
             </a>
           </li>

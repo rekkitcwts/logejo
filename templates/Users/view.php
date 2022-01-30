@@ -4,45 +4,99 @@
  * @var \App\Model\Entity\User $user
  */
 ?>
-<div class="row">
-    <aside class="column">
-        <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Html->link(__('Edit User'), ['action' => 'edit', $user->id], ['class' => 'side-nav-item']) ?>
-            <?= $this->Form->postLink(__('Delete User'), ['action' => 'delete', $user->id], ['confirm' => __('Are you sure you want to delete # {0}?', $user->id), 'class' => 'side-nav-item']) ?>
-            <?= $this->Html->link(__('List Users'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
-            <?= $this->Html->link(__('New User'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
-        </div>
-    </aside>
-    <div class="column-responsive column-80">
-        <div class="users view content">
-            <h3><?= h($user->id) ?></h3>
-            <table>
-                <tr>
-                    <th><?= __('Username') ?></th>
-                    <td><?= h($user->username) ?></td>
-                </tr>
-                <tr>
-                    <th><?= __('Role') ?></th>
-                    <td><?= h($user->role) ?></td>
-                </tr>
-                <tr>
-                    <th><?= __('Id') ?></th>
-                    <td><?= $this->Number->format($user->id) ?></td>
-                </tr>
-                <tr>
-                    <th><?= __('Is Active') ?></th>
-                    <td><?= $this->Number->format($user->is_active) ?></td>
-                </tr>
-                <tr>
-                    <th><?= __('Created') ?></th>
-                    <td><?= h($user->created) ?></td>
-                </tr>
-                <tr>
-                    <th><?= __('Modified') ?></th>
-                    <td><?= h($user->modified) ?></td>
-                </tr>
-            </table>
-        </div>
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0"><?= __('Viewing User {0}', $user->username) ?></h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="<?= $this->request->getAttribute('webroot') ?>dashboard"><?= __('Home') ?></a></li>
+              <li class="breadcrumb-item"><?= $this->Html->link(__('Users'), ['action' => 'index']) ?></li>
+	      <li class="breadcrumb-item active"><?= __('View User') ?></li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
     </div>
-</div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+	  <!-- left column -->
+          <div class="col-md-12">
+	     <?php
+		if ($this->Number->format($user->is_active)==1)
+		{
+		  $card_colour = "success";
+		}
+		else
+		{
+		  $card_colour = "danger";
+		}
+	     ?>
+	     <div class="card card-<?= $card_colour ?>">
+              <div class="card-header">
+                <h3 class="card-title">User Information</h3>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <td><?= __('Username') ?></td>
+                      <td><?= h($user->username) ?></td>
+                    </tr>
+                    <tr>
+                      <td><?= __('Role') ?></td>
+                      <td>
+                        <?= h($user->role) ?>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><?= __('Created At') ?></td>
+                      <td>
+                        <?= h($user->created) ?>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><?= __('Last Modified') ?></td>
+                      <td>
+                        <?= h($user->modified) ?>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+	  </div>
+	</div><!--/. row -->
+	<div class="row">
+	  <div class="col-md-12">
+            <!-- Actions card -->
+            <div class="card card-warning">
+              <div class="card-header">
+                <h3 class="card-title">Actions</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+		<?= $this->Html->link(__('Edit User'), ['action' => 'edit', $user->id], ['class' => 'btn btn-warning']) ?>
+            
+            <?= $this->Html->link(__('Back to users list'), ['action' => 'index'], ['class' => 'btn btn-primary']) ?>
+            <?= $this->Html->link(__('New User'), ['action' => 'add'], ['class' => 'btn btn-success']) ?>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+	  </div>
+	</div> <!-- row -->
+      </div><!--/. container-fluid -->
+    </section>
+    <!-- /.content -->

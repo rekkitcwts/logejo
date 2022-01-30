@@ -102,14 +102,15 @@ class UsersController extends AppController
      */
     public function view($id = null)
     {
-	// View and index actions are public methods
-	// and don't require authorization checks.
-	// TBD: only selected View actions (e.g. flats) should be public
-	$this->Authorization->skipAuthorization();
+	// Shows the role and username of the logged in user
+	$this->set('currentUser', $this->request->getAttribute('identity')->username);
+	$this->set('currentUserRole', $this->request->getAttribute('identity')->role);
         $user = $this->Users->get($id, [
             'contain' => [],
         ]);
-
+	// DO NOT SKIP AUTHORISATION - create a separate view profile page instead
+    	$this->Authorization->authorize($user, 'accessInternal');
+	$this->viewBuilder()->setLayout('aonghas');
         $this->set(compact('user'));
     }
 

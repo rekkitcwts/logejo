@@ -64,7 +64,6 @@
                     <td class="actions">
                         <?= $this->Html->link(__('View'), ['action' => 'view', $user->id], ['class' => 'button float-left btn btn-default']) ?>
                         <?= $this->Html->link(__('Edit'), ['action' => 'edit', $user->id], ['class' => 'button float-left btn btn-warning']) ?> 
-			<?=	($currentUserID != $user->id) ? $this->Form->postLink(__('Delete'), ['action' => 'delete', $user->id], ['class' => 'button float-left btn btn-danger', 'confirm' => __('Are you sure you want to delete # {0}?', $user->id)]) : ""; ?>
                     </td>
                 </tr>
                 <?php endforeach; ?>
