@@ -44,11 +44,10 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="<?= $this->request->getAttribute('webroot') ?>dashboard" class="nav-link">
+            <a href="<?= $this->request->getAttribute('webroot') ?>dashboard" class="nav-link <?= ($selectedPage == "dashboard") ? 'active' : ''; ?>">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Dashboard
-                <span class="right badge badge-danger">NOT READY</span>
+                <?= __('Dashboard') ?>
               </p>
             </a>
           </li>
@@ -56,7 +55,7 @@
             <a href="<?= $this->request->getAttribute('webroot') ?>users" class="nav-link">
               <i class="nav-icon fas fa-user-friends"></i>
               <p>
-                Users
+                <?= __('Users') ?>
                 <span class="right badge badge-danger">BETA</span>
               </p>
             </a>

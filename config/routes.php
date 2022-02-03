@@ -57,6 +57,9 @@ return static function (RouteBuilder $routes) {
          */
         $builder->connect('/pages/*', 'Pages::display');
 
+	// Aonghas - Dashboard: Set URL here
+	$builder->connect('/dashboard', ['controller' => 'Dashboard', 'action' => 'index', 'home']);
+
         /*
          * Connect catchall routes for all controllers.
          *
