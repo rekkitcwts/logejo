@@ -35,6 +35,7 @@ class UserPolicy
      */
     public function canEdit(IdentityInterface $user, User $resource)
     {
+	return $this->isExternalUser($user) == false;
     }
 
     /**

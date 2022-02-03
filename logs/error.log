@@ -17559,3 +17559,726 @@ Request URL: /debug-kit/toolbar/6a9204c9-8d12-4875-a087-fc3f66336bd6
 Referer URL: http://localhost:8765/users/view/1
 
 
+2022-01-30 10:35:53 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/200ed9b6-cec4-46b1-9020-43d5782a0cfa` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/200ed9b6-cec4-46b1-9020-43d5782a0cfa',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/200ed9b6-cec4-46b1-9020-43d5782a0cfa
+Referer URL: http://localhost:8765/users
+
+
+2022-01-30 14:16:28 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/c6bb29d2-9610-4907-b25e-4112e929a16f` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/c6bb29d2-9610-4907-b25e-4112e929a16f',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/c6bb29d2-9610-4907-b25e-4112e929a16f
+Referer URL: http://localhost:8765/users/login
+
+
+2022-01-31 16:58:46 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/1a632b3f-6ecd-4257-b400-cf153f9ae9ec` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/1a632b3f-6ecd-4257-b400-cf153f9ae9ec',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/1a632b3f-6ecd-4257-b400-cf153f9ae9ec
+Referer URL: http://localhost:8765/users/login
+
+
+2022-01-31 16:59:09 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/841a0868-e6d0-4add-a4eb-02cbc13dc709` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/841a0868-e6d0-4add-a4eb-02cbc13dc709',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/841a0868-e6d0-4add-a4eb-02cbc13dc709
+Referer URL: http://localhost:8765/users
+
+
+2022-01-31 16:59:32 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/5eb5ceba-61be-474c-b629-87c3ac295f71` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/5eb5ceba-61be-474c-b629-87c3ac295f71',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/5eb5ceba-61be-474c-b629-87c3ac295f71
+Referer URL: http://localhost:8765/users/view/1
+
+
+2022-01-31 17:02:45 warning: Warning (2): Undefined variable $currentUserRole in [/home/pi/Documents/PHP/logejo/templates/element/aonghas_sidebar.php, line 24]
+Request URL: /users/edit/1
+Referer URL: http://localhost:8765/users/view/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+include - ROOT/templates/element/aonghas_sidebar.php, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1181
+Cake\View\View::_render() - CORE/src/View/View.php, line 1138
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1673
+Cake\View\View::element() - CORE/src/View/View.php, line 660
+include - ROOT/templates/layout/aonghas.php, line 51
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1181
+Cake\View\View::_render() - CORE/src/View/View.php, line 1138
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 821
+Cake\View\View::render() - CORE/src/View/View.php, line 780
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 762
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 548
+Cake\Controller\ControllerFactory::handle() - CORE/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 115
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 317
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Authorization\Middleware\AuthorizationMiddleware::process() - ROOT/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php, line 129
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-01-31 17:02:52 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/e1fb6a89-ed0e-42e5-9537-38d66f80e89f` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/e1fb6a89-ed0e-42e5-9537-38d66f80e89f',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/e1fb6a89-ed0e-42e5-9537-38d66f80e89f
+Referer URL: http://localhost:8765/users/edit/1
+
+
+2022-01-31 17:03:37 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/3ddfc767-10e2-4516-890b-8ed117e6ee02` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/3ddfc767-10e2-4516-890b-8ed117e6ee02',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/3ddfc767-10e2-4516-890b-8ed117e6ee02
+Referer URL: http://localhost:8765/users/edit/1
+
+
+2022-01-31 17:08:24 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/456e1958-0058-4051-917e-b7e04c86de9c` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/456e1958-0058-4051-917e-b7e04c86de9c',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/456e1958-0058-4051-917e-b7e04c86de9c
+Referer URL: http://localhost:8765/users/edit/1
+
+
+2022-02-01 00:34:03 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/c80798ff-bb4d-41a0-8b77-c7d3b75dd32a` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/c80798ff-bb4d-41a0-8b77-c7d3b75dd32a',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/c80798ff-bb4d-41a0-8b77-c7d3b75dd32a
+Referer URL: http://localhost:8765/users/login
+
+
+2022-02-01 00:34:21 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/1dd09119-4f5e-4658-b4ba-90aa899c771d` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/1dd09119-4f5e-4658-b4ba-90aa899c771d',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/1dd09119-4f5e-4658-b4ba-90aa899c771d
+Referer URL: http://localhost:8765/users
+
+
+2022-02-01 00:34:40 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/7b7480b9-b709-4466-8661-a48de89bac97` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/7b7480b9-b709-4466-8661-a48de89bac97',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/7b7480b9-b709-4466-8661-a48de89bac97
+Referer URL: http://localhost:8765/users/edit/1
+
+
+2022-02-01 00:34:55 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/121617ed-d40c-4607-8139-47c0f6ab0452` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/121617ed-d40c-4607-8139-47c0f6ab0452',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/121617ed-d40c-4607-8139-47c0f6ab0452
+Referer URL: http://localhost:8765/users/edit/2
+
+
+2022-02-01 00:35:36 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/40e74c32-083f-4539-83be-3580c49feb76` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/40e74c32-083f-4539-83be-3580c49feb76',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/40e74c32-083f-4539-83be-3580c49feb76
+Referer URL: http://localhost:8765/users/edit/2
+
+
+2022-02-01 00:41:14 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/89b31749-fd7d-4aca-b5f9-2af5e3f94117` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/89b31749-fd7d-4aca-b5f9-2af5e3f94117',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/89b31749-fd7d-4aca-b5f9-2af5e3f94117
+Referer URL: http://localhost:8765/users/edit/2
+
+
+2022-02-01 00:42:00 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/f78c2895-b847-47d2-894f-d363faf45476` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/f78c2895-b847-47d2-894f-d363faf45476',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/f78c2895-b847-47d2-894f-d363faf45476
+Referer URL: http://localhost:8765/users/edit/2
+
+
+2022-02-01 00:49:00 error: [ParseError] Unclosed '(' does not match ']' in /home/pi/Documents/PHP/logejo/templates/Users/edit.php on line 56
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/View/View.php:1138
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/View/View.php:769
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /users/edit/2
+
+
+2022-02-01 00:49:06 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/c30c8a9c-e94a-4ba4-8a51-1956cac572d0` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/c30c8a9c-e94a-4ba4-8a51-1956cac572d0',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/c30c8a9c-e94a-4ba4-8a51-1956cac572d0
+Referer URL: http://localhost:8765/users/edit/2
+
+
+2022-02-01 00:49:23 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/49f23fea-45f3-4e7a-8ffa-82f753003556` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/49f23fea-45f3-4e7a-8ffa-82f753003556',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/49f23fea-45f3-4e7a-8ffa-82f753003556
+Referer URL: http://localhost:8765/users/edit/2
+
+
+2022-02-01 04:14:43 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/f8244976-9c49-46ae-9887-cffc6b1f9b42` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/f8244976-9c49-46ae-9887-cffc6b1f9b42',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/f8244976-9c49-46ae-9887-cffc6b1f9b42
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Fedit%2F2
+
+
+2022-02-01 04:15:06 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/6dcc4a0b-7586-49a5-8e36-3aebc7efad3e` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/6dcc4a0b-7586-49a5-8e36-3aebc7efad3e',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/6dcc4a0b-7586-49a5-8e36-3aebc7efad3e
+Referer URL: http://localhost:8765/users/edit/2
+
+
+2022-02-01 04:17:21 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/8ce135c8-ad37-4267-9d26-5b24a859d5d1` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/8ce135c8-ad37-4267-9d26-5b24a859d5d1',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/8ce135c8-ad37-4267-9d26-5b24a859d5d1
+Referer URL: http://localhost:8765/users/edit/2
+
+
+2022-02-01 04:21:42 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/8b1f8d12-1af2-4458-b9d9-82d274cedd2c` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/8b1f8d12-1af2-4458-b9d9-82d274cedd2c',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/8b1f8d12-1af2-4458-b9d9-82d274cedd2c
+Referer URL: http://localhost:8765/users/edit/2
+
+
+2022-02-01 04:24:38 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/4aa1f842-24e7-4e4f-9549-a959aafc3673` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/4aa1f842-24e7-4e4f-9549-a959aafc3673',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/4aa1f842-24e7-4e4f-9549-a959aafc3673
+Referer URL: http://localhost:8765/users/edit/2
+
+
+2022-02-01 09:26:12 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/ecc67e03-6f6c-4dc7-9416-e965475e5b05` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/ecc67e03-6f6c-4dc7-9416-e965475e5b05',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/ecc67e03-6f6c-4dc7-9416-e965475e5b05
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers%2Fedit%2F2
+
+
+2022-02-03 12:25:10 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/0ef1be47-b72a-4e20-9c05-7447cc0077e3` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/0ef1be47-b72a-4e20-9c05-7447cc0077e3',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/0ef1be47-b72a-4e20-9c05-7447cc0077e3
+Referer URL: http://localhost:8765/users/login
+
+
+2022-02-03 12:25:26 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/039b581b-ff58-4f2f-bf6a-7394f917e49d` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/039b581b-ff58-4f2f-bf6a-7394f917e49d',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/039b581b-ff58-4f2f-bf6a-7394f917e49d
+Referer URL: http://localhost:8765/users
+
+
+2022-02-03 12:26:46 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/ba579123-870c-41e7-9840-00bfff0580b8` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/ba579123-870c-41e7-9840-00bfff0580b8',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/ba579123-870c-41e7-9840-00bfff0580b8
+Referer URL: http://localhost:8765/users/edit/3
+
+
+2022-02-03 12:27:08 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/220f5a90-160c-4ec1-b4f7-a713ecf432f6` did not apply any authorization checks. in /home/pi/Documents/PHP/logejo/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/220f5a90-160c-4ec1-b4f7-a713ecf432f6',
+)
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/pi/Documents/PHP/logejo/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/220f5a90-160c-4ec1-b4f7-a713ecf432f6
+Referer URL: http://localhost:8765/users
+
+
