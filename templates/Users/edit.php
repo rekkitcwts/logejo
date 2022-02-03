@@ -77,12 +77,21 @@
 ?>
 <script>
   $(function () {
-    console.log($('#editUserIsActive').val());
+    //console.log($('#editUserIsActive').val());
+    var initialActive = $('#editUserIsActive').val();
+    if (initialActive == 0)
+    {
+        $('#is_active').prop('checked', false);
+    }
+    else
+    {
+	$('#is_active').prop('checked', true);
+    }
 
     $('#is_active').on('change', function(){
 	statusNew = this.checked ? 1 : 0;
    	$('#editUserIsActive').val(statusNew);
-	console.log($('#editUserIsActive').val());
+	// console.log($('#editUserIsActive').val());
     }).change();
   });
 </script>
