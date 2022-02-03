@@ -16,39 +16,39 @@ msgstr ""
 
 #: ./src/Controller/UsersController.php:45
 msgid "Invalid username or password"
-msgstr ""
+msgstr "Eksvalida uzantnomo aŭ pasvorto"
 
 #: ./src/Controller/UsersController.php:134
 #: ./src/Controller/UsersController.php:164
 msgid "The user has been saved."
-msgstr ""
+msgstr "La uzanto estis konservita."
 
 #: ./src/Controller/UsersController.php:138
 msgid "The user could not be saved. Please, try again. "
-msgstr ""
+msgstr "La uzanto ne povis esti konservita. Bonvolu, provi denove."
 
 #: ./src/Controller/UsersController.php:168
 msgid "The user could not be saved. Please, try again."
-msgstr ""
+msgstr "La uzanto ne povis esti konservita. Bonvolu, provi denove."
 
 #: ./src/Controller/UsersController.php:185
 msgid "The user has been deleted."
-msgstr ""
+msgstr "La uzanto estis forigita."
 
 #: ./src/Controller/UsersController.php:187
 msgid "The user could not be deleted. Please, try again."
-msgstr ""
+msgstr "La uzanto ne povis esti forigita. Bonvolu, provi denove."
 
 #: ./templates/Users/add.php:12
 msgid "Add Users"
-msgstr ""
+msgstr "Aldonu uzantojn"
 
 #: ./templates/Users/add.php:16
 #: ./templates/Users/edit.php:16
 #: ./templates/Users/index.php:16
 #: ./templates/Users/view.php:16
 msgid "Home"
-msgstr ""
+msgstr "Hejmo"
 
 #: ./templates/Users/add.php:17
 #: ./templates/Users/edit.php:17
@@ -57,55 +57,55 @@ msgstr ""
 #: ./templates/Users/view.php:17
 #: ./templates/element/aonghas_sidebar.php:58
 msgid "Users"
-msgstr ""
+msgstr "Uzantoj"
 
 #: ./templates/Users/add.php:18
 msgid "Add User"
-msgstr ""
+msgstr "Aldonu uzantojn"
 
 #: ./templates/Users/add.php:61
 #: ./templates/Users/edit.php:61
 msgid "Submit"
-msgstr ""
+msgstr "Sendi"
 
 #: ./templates/Users/edit.php:12
 #: ./templates/Users/edit.php:18
 #: ./templates/Users/edit.php:35
 msgid "Edit User {0}"
-msgstr ""
+msgstr "Redakti uzanton {0}"
 
 #: ./templates/Users/index.php:29
 #: ./templates/Users/view.php:93
 msgid "New User"
-msgstr ""
+msgstr "Nova Uzanto"
 
 #: ./templates/Users/index.php:41
 msgid "Actions"
-msgstr ""
+msgstr "Agoj"
 
 #: ./templates/Users/index.php:65
 msgid "View"
-msgstr ""
+msgstr "Vidi"
 
 #: ./templates/Users/index.php:66
 msgid "Edit"
-msgstr ""
+msgstr "Redakti"
 
 #: ./templates/Users/index.php:75
 msgid "first"
-msgstr ""
+msgstr "unua"
 
 #: ./templates/Users/index.php:76
 msgid "previous"
-msgstr ""
+msgstr "pasinta"
 
 #: ./templates/Users/index.php:78
 msgid "next"
-msgstr ""
+msgstr "sekvanta"
 
 #: ./templates/Users/index.php:79
 msgid "last"
-msgstr ""
+msgstr "lasta"
 
 #: ./templates/Users/index.php:81
 msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
@@ -113,62 +113,62 @@ msgstr ""
 
 #: ./templates/Users/login.php:7
 msgid "Please enter your username and password"
-msgstr ""
+msgstr "Bonvolu entajpi viajn uzantnomon kaj pasvorton"
 
 #: ./templates/Users/login.php:11
 #: ./templates/layout/login_aonghas.php:60
 msgid "Login"
-msgstr ""
+msgstr "Ensaluti"
 
 #: ./templates/Users/view.php:12
 msgid "Viewing User {0}"
-msgstr ""
+msgstr "Vidante uzanton {0}"
 
 #: ./templates/Users/view.php:18
 msgid "View User"
-msgstr ""
+msgstr "Vidi uzanton"
 
 #: ./templates/Users/view.php:51
 msgid "Username"
-msgstr ""
+msgstr "Uzantnomo"
 
 #: ./templates/Users/view.php:55
 msgid "Role"
-msgstr ""
+msgstr "Rolo"
 
 #: ./templates/Users/view.php:61
 msgid "Created At"
-msgstr ""
+msgstr "Kreitita je"
 
 #: ./templates/Users/view.php:67
 msgid "Last Modified"
-msgstr ""
+msgstr "Redaktita je"
 
 #: ./templates/Users/view.php:90
 msgid "Edit User"
-msgstr ""
+msgstr "Redakti uzanton"
 
 #: ./templates/Users/view.php:92
 msgid "Back to users list"
-msgstr ""
+msgstr "Reiri al uzanta listo"
 
 #: ./templates/element/aonghas_sidebar.php:7
 msgid "Logejo Control Panel"
-msgstr ""
+msgstr "Loĝejo Agordilaro"
 
 #: ./templates/element/aonghas_sidebar.php:50
 msgid "Dashboard"
-msgstr ""
+msgstr "Panelo"
 
 #: ./templates/layout/error.php:38
 msgid "Back"
-msgstr ""
+msgstr "Reiri"
 
 #: ./templates/layout/login_aonghas.php:25
 msgid "Aonghas Control Panel"
-msgstr ""
+msgstr "Aonghas Agordilaro"
 
 #: ./templates/layout/login_aonghas.php:29
 msgid "Sign in to start your session"
-msgstr ""
+msgstr "Ensaluti por komenci vian sesion"
 
