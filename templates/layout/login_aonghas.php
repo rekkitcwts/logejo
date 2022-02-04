@@ -25,6 +25,9 @@
       <a href="/" class="h1"><?= __('Aonghas Control Panel') ?></a>
     </div>
     <div class="card-body">
+	<?php
+	    //var_dump($_SESSION);
+	?>
 	<?= $this->Flash->render() ?>
       <p class="login-box-msg"><?= __('Sign in to start your session') ?></p>
 

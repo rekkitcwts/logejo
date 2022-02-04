@@ -15,10 +15,10 @@ class UsersController extends AppController
 	// Redirects to login page if authentication is needed
 	public function beforeFilter(\Cake\Event\EventInterface $event)
 	{
-    	parent::beforeFilter($event);
-    	// Configure the login action to not require authentication, preventing
-    	// the infinite redirect loop issue
-    	$this->Authentication->addUnauthenticatedActions(['login']);
+    	    parent::beforeFilter($event);
+    	    // Configure the login action to not require authentication, preventing
+    	    // the infinite redirect loop issue
+    	    $this->Authentication->addUnauthenticatedActions(['login']);
 	}
 
 	public function login()
@@ -31,19 +31,28 @@ class UsersController extends AppController
     	$result = $this->Authentication->getResult();
     	// regardless of POST or GET, redirect if user is logged in
     	if ($result->isValid()) {
-        	// TEMPORARY: redirect to /users after login success
-		// TBD: redirect depending if user is internal or external
-        	$redirect = $this->request->getQuery('redirect', [
-            	'controller' => 'Users',
+            
+            if ($this->request->getAttribute('identity')->is_active == 0)
+            {
+		// DO NOT login inactive users. Automatic logout.
+		// and pretend they do not exist.
+		$this->Flash->error(__('Invalid username or password'));
+		$this->Authentication->logout();
+            }
+            else
+	    {
+		$redirect = $this->request->getQuery('redirect', [
+            	'controller' => 'Dashboard',
             	'action' => 'index',
         	]);
 
-        	return $this->redirect($redirect);
+		return $this->redirect($redirect);
+            } 
     	}
     	// display error if user submitted and authentication failed
     	if ($this->request->is('post') && !$result->isValid()) {
         	$this->Flash->error(__('Invalid username or password'));
-    	}
+    	    }
 	}
 
 	// Logs the user out
@@ -83,6 +92,7 @@ class UsersController extends AppController
 	if ($this->request->getAttribute('identity')->role == 'int_admin')
 	{
 	    $this->viewBuilder()->setLayout('aonghas');	
+	    $this->set('selectedPage', "users");
 	    // Shows the role and username of the logged in user
 	    $this->set('currentUser', $this->request->getAttribute('identity')->username);
 	    $this->set('currentUserRole', $this->request->getAttribute('identity')->role);
@@ -111,6 +121,7 @@ class UsersController extends AppController
 	// DO NOT SKIP AUTHORISATION - create a separate view profile page instead
     	$this->Authorization->authorize($user, 'accessInternal');
 	$this->viewBuilder()->setLayout('aonghas');
+	$this->set('selectedPage', "users");
         $this->set(compact('user'));
     }
 
@@ -125,6 +136,7 @@ class UsersController extends AppController
         $user = $this->Users->newEmptyEntity();
     	$this->Authorization->authorize($user, 'accessInternal');
 	$this->viewBuilder()->setLayout('aonghas');
+	$this->set('selectedPage', "users");
 	// Shows the role and username of the logged in user
 	$this->set('currentUser', $this->request->getAttribute('identity')->username);
 	$this->set('currentUserRole', $this->request->getAttribute('identity')->role);
@@ -135,7 +147,7 @@ class UsersController extends AppController
 
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('The user could not be saved. Please, try again. ' . var_dump($this->request->getData())));
+            $this->Flash->error(__('The user could not be saved. Please, try again.'));
         }
         $this->set(compact('user'));
     }
@@ -155,6 +167,7 @@ class UsersController extends AppController
         ]);
 	$this->Authorization->authorize($user, 'accessInternal');
 	$this->viewBuilder()->setLayout('aonghas');
+	$this->set('selectedPage', "users");
 	// Shows the role and username of the logged in user
 	$this->set('currentUser', $this->request->getAttribute('identity')->username);
 	$this->set('currentUserRole', $this->request->getAttribute('identity')->role);

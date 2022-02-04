@@ -52,7 +52,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?= $this->request->getAttribute('webroot') ?>users" class="nav-link">
+            <a href="<?= $this->request->getAttribute('webroot') ?>users" class="nav-link <?= ($selectedPage == "users") ? 'active' : ''; ?>">
               <i class="nav-icon fas fa-user-friends"></i>
               <p>
                 <?= __('Users') ?>
