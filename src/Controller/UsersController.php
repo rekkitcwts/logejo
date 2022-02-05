@@ -36,7 +36,7 @@ class UsersController extends AppController
             {
 		// DO NOT login inactive users. Automatic logout.
 		// and pretend they do not exist.
-		$this->Flash->error(__('Invalid username or password'));
+		$this->Flash->set(__('Invalid username or password'));
 		$this->Authentication->logout();
             }
             else

@@ -1,0 +1,13 @@
+2022-02-05 13:17:18 error: [Cake\Database\Exception\DatabaseException] Cannot describe flat. It has 0 columns. in /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 120
+Stack Trace:
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/ORM/Table.php:513
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/bake/src/Command/ModelCommand.php:111
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/bake/src/Command/ModelCommand.php:94
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/bake/src/Command/AllCommand.php:115
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /home/pi/Documents/PHP/logejo/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /home/pi/Documents/PHP/logejo/bin/cake.php:12
+
+
+
